@@ -57,8 +57,7 @@ def preprocess_image(image):
 
     # Convert image to numpy array
     image_array = np.array(
-        image,
-        dtype=np.float32
+        image
     )
 
     # EfficientNet preprocessing
